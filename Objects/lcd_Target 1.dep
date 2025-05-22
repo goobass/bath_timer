@@ -1,0 +1,65 @@
+Dependencies for Project 'lcd', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6230000::V6.23::ARMCLANG
+F (.\Board_I2c.h)(0x67EC99AD)()
+F (.\Board_LED.h)(0x5D13F33A)()
+F (.\Board_Remote.h)(0x640411DB)()
+F (.\Board_Port.h)(0x63F43B69)()
+F (.\Board_CLKOUT.c)(0x63F734EB)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -std=c11-IC:/Users/gooba/AppData/Local/Keil_v5/ARM/CMSIS/Include-IDevice/Include/LPC11xx-D__UVISION_VERSION="542"-o ./objects/board_clkout.o -MMD)
+I (LPC11xx.h)(0x63ED9923)
+I (core_cm0.h)(0x626F3CCE)
+I (system_LPC11xx.h)(0x57034E02)
+I (Board_CLKOUT.h)(0x63F16615)
+F (.\Board_I2c.c)(0x67F7A19A)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -std=c11-IC:/Users/gooba/AppData/Local/Keil_v5/ARM/CMSIS/Include-IDevice/Include/LPC11xx-D__UVISION_VERSION="542"-o ./objects/board_i2c.o -MMD)
+I (LPC11xx.h)(0x63ED9923)
+I (core_cm0.h)(0x626F3CCE)
+I (system_LPC11xx.h)(0x57034E02)
+I (Board_I2c.h)(0x67EC99AD)
+I (Board_Timer.h)(0x67EF39EA)
+I (Board_LED.h)(0x5D13F33A)
+F (.\Board_Timer.c)(0x67EF39EA)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -std=c11-IC:/Users/gooba/AppData/Local/Keil_v5/ARM/CMSIS/Include-IDevice/Include/LPC11xx-D__UVISION_VERSION="542"-o ./objects/board_timer.o -MMD)
+I (LPC11xx.h)(0x63ED9923)
+I (core_cm0.h)(0x626F3CCE)
+I (system_LPC11xx.h)(0x57034E02)
+I (Board_Timer.h)(0x67EF39EA)
+F (.\Board_Uart.c)(0x67EA0461)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -std=c11-IC:/Users/gooba/AppData/Local/Keil_v5/ARM/CMSIS/Include-IDevice/Include/LPC11xx-D__UVISION_VERSION="542"-o ./objects/board_uart.o -MMD)
+I (LPC11xx.h)(0x63ED9923)
+I (core_cm0.h)(0x626F3CCE)
+I (system_LPC11xx.h)(0x57034E02)
+I (Board_Uart.h)(0x63FEC4CF)
+I (Board_Timer.h)(0x67EF39EA)
+F (.\LED_MCB11C14.c)(0x67F7A2B1)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -std=c11-IC:/Users/gooba/AppData/Local/Keil_v5/ARM/CMSIS/Include-IDevice/Include/LPC11xx-D__UVISION_VERSION="542"-o ./objects/led_mcb11c14.o -MMD)
+I (LPC11xx.h)(0x63ED9923)
+I (core_cm0.h)(0x626F3CCE)
+I (system_LPC11xx.h)(0x57034E02)
+I (Board_LED.h)(0x5D13F33A)
+F (.\main.c)(0x6829B746)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -std=c11-IC:/Users/gooba/AppData/Local/Keil_v5/ARM/CMSIS/Include-IDevice/Include/LPC11xx-D__UVISION_VERSION="542"-o ./objects/main.o -MMD)
+I (LPC11xx.h)(0x63ED9923)
+I (core_cm0.h)(0x626F3CCE)
+I (system_LPC11xx.h)(0x57034E02)
+I (Board_LED.h)(0x5D13F33A)
+I (Board_CLKOUT.h)(0x63F16615)
+I (Board_Timer.h)(0x67EF39EA)
+I (Board_Port.h)(0x63F43B69)
+I (Board_Uart.h)(0x63FEC4CF)
+I (Board_I2c.h)(0x67EC99AD)
+I (Board_Buttons.h)(0x67ECA80E)
+F (.\system_LPC11xx.c)(0x67EA0461)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -std=c11-IC:/Users/gooba/AppData/Local/Keil_v5/ARM/CMSIS/Include-IDevice/Include/LPC11xx-D__UVISION_VERSION="542"-o ./objects/system_lpc11xx.o -MMD)
+I (LPC11xx.h)(0x63ED9923)
+I (core_cm0.h)(0x626F3CCE)
+I (system_LPC11xx.h)(0x57034E02)
+F (.\Board_CLKOUT.h)(0x63F16615)()
+F (.\Board_Timer.h)(0x67EF39EA)()
+F (.\Board_Uart.h)(0x63FEC4CF)()
+F (.\cmsis_armclang.h)(0x626F3CCE)()
+F (.\cmsis_compiler.h)(0x626F3CCE)()
+F (.\cmsis_os.h)(0x626F3CCE)()
+F (.\cmsis_version.h)(0x626F3CCE)()
+F (.\core_cm0.h)(0x626F3CCE)()
+F (.\LPC11xx.h)(0x63ED9923)()
+F (.\startup_LPC11xx.s)(0x53043348)(--target=arm-arm-none-eabi -mcpu=cortex-m0 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-IC:/Users/gooba/AppData/Local/Keil_v5/ARM/CMSIS/Include-IDevice/Include/LPC11xx-Wa,armasm,--pd,"__UVISION_VERSION SETA 542"-o ./objects/startup_lpc11xx.o)
+F (.\Buttons_MCB11C14.c)(0x67ECCF1C)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -std=c11-IC:/Users/gooba/AppData/Local/Keil_v5/ARM/CMSIS/Include-IDevice/Include/LPC11xx-D__UVISION_VERSION="542"-o ./objects/buttons_mcb11c14.o -MMD)
+I (LPC11xx.h)(0x63ED9923)
+I (core_cm0.h)(0x626F3CCE)
+I (system_LPC11xx.h)(0x57034E02)
+I (Board_Buttons.h)(0x67ECA80E)
+F (.\Board_Buttons.h)(0x67ECA80E)()
